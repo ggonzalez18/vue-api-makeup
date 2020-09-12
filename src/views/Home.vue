@@ -13,7 +13,7 @@
         <v-card-subtitle>$ {{product.price}}</v-card-subtitle>
 
         <v-card-actions>
-          <v-btn text>Agregar al carro</v-btn>
+          <v-btn color="error" dark>Agregar al carro</v-btn>
           <v-btn color="purple" text to="/product">Ver detalle</v-btn>
 
           <v-spacer></v-spacer>
