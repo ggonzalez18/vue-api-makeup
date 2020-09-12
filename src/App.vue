@@ -7,13 +7,12 @@
         <v-btn to="/" text>home</v-btn>
       </v-app-bar>
       </v-content>
+      <router-view></router-view>
         <v-card height="150">
           <v-footer absolute class="font-weight-medium" color="indigo lighten-4">
             <v-col class="text-center" cols="12">{{ new Date().getFullYear() }} — <strong>Vuetify</strong></v-col>
           </v-footer>
         </v-card>
-        <router-view></router-view>
-      
     </v-app>
 </template>
 
